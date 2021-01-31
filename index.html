@@ -2,22 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,
-minimum-scale=1, width=device-width">
-    <link rel="stylesheet" href="main.css">
-    <script src="./scripts/main.js"></script>
-    <title>Little RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Life Choices</title>
 </head>
 <body>
-    <div id="wrapper">
-        <div id="welcome" class="game-layer">
-            <h1 class="center-text">LalaLand</h1>
-            <div class="center">
-                <button class="btn">Play Game</button>
+    <div class="container">
+        <div id="left" class="panel">
+            <img src="./Images/Berlinagain.jpg" alt="" id="profile-img">
+            <p id="username">Mr. Monopoly</p>
+            <div id=level-bar></div>
+            <div id="level-info">
+                <h3>Current Level</h3>
+                <p>Level 1</p>
+            </div>
+            <div id="inventory">
+                <h3>Inventory</h3>
+                <div>
+                    <div class="square-container">
+                        <div class="inventory-square"></div>
+                        <div class="inventory-square"></div>
+                        <div class="inventory-square"></div>
+                    </div>
+                    
+                    <div class="square-container">
+                        <div class="inventory-square"></div>
+                        <div class="inventory-square"></div>
+                        <div class="inventory-square"></div>
+                    </div>
+                    <div id="add-to-inventory"><span id="">+</span></div>
+                </div>
             </div>
         </div>
-        <div id="main-screen" class="game-layer">
-
+        <div id="center" class="panel">
+            <p>Center Panel</p>
+        </div>
+        <div id="right" class="panel">
+            <p>Right Panel</p>
         </div>
     </div>
 </body>
