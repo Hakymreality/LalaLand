@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Life Choices</title>
 </head>
 <body>
     <div class="container">
         <div id="left" class="panel">
             <img src="./Images/Berlinagain.jpg" alt="" id="profile-img">
-            <p id="username">Mr. Monopoly</p>
+            <p id="username">AnotherDiscordUser</p>
             <div id=level-bar></div>
             <div id="level-info">
                 <h3>Current Level</h3>
@@ -35,13 +35,29 @@
             </div>
         </div>
         <div id="center" class="panel">
-            <div id="messages-overflow">
+            <div id="messagesContainer">
                 <div class="message">
-                    <h4 class="message-sender">Gandhi</h4>
-                    <p>"Hi, Welcome to LIfe choices, its a game of life and how it goes hope you enjoy it"</p>
+                    <h4 class="message-sender">MEE6</h4>
+                    <p>"Hi, Welcome to Teen Hub this is a server for Teens by Teens hope you enjoy your stay here and try not to be toxic"</p>
                 </div>
                 <div class="message">
-                    <h4 class="message-sender right">Mr. Monopoly</h4>
+                    <h4 class="message-sender right">AnotherDiscordUser</h4>
+                    <p class="right">"Sure sure, but why do I have to verify, I didn't do that on othr servers and I don't like showing my face"</p>
+                </div>
+                <div class="message">
+                    <h4 class="message-sender">Sal</h4>
+                    <p>"Thats because we want to protect our teenage community from catfishes and pedophiles"</p>
+                </div>
+                <div class="message">
+                    <h4 class="message-sender right">AnotherDiscordUser</h4>
+                    <p class="right">"Oh right, but then isn't this going too far well I'll just have to do it then which mod do I have to DM"</p>
+                </div>
+                <div class="message">
+                    <h4 class="message-sender">Sal</h4>
+                    <p>"Me or Ilyanc"</p>
+                </div>
+                <div class="message">
+                    <h4 class="message-sender right">AnotherDiscordUser</h4>
                     <p class="right">"Hi, Welcome to LIfe choices"</p>
                 </div>
                 <div class="message">
@@ -49,29 +65,13 @@
                     <p>"Hi, Welcome to LIfe choices"</p>
                 </div>
                 <div class="message">
-                    <h4 class="message-sender right">Mr. Monopoly</h4>
-                    <p class="right">"Hi, Welcome to LIfe choices"</p>
-                </div>
-                <div class="message">
-                    <h4 class="message-sender">Gandhi</h4>
-                    <p>"Hi, Welcome to LIfe choices"</p>
-                </div>
-                <div class="message">
-                    <h4 class="message-sender right">Mr. Monopoly</h4>
-                    <p class="right">"Hi, Welcome to LIfe choices"</p>
-                </div>
-                <div class="message">
-                    <h4 class="message-sender">Gandhi</h4>
-                    <p>"Hi, Welcome to LIfe choices"</p>
-                </div>
-                <div class="message">
-                    <h4 class="message-sender right">Mr. Monopoly</h4>
-                    <p class="right">"Hi, Welcome to LIfe choices"</p>
+                    <h4 class="message-sender right">AnotherDiscordUser</h4>
+                    <p class="right">"Hi, Welcome to LIfe choices, thanks"</p>
                 </div>
             </div>
-            <form action="#" id="message-form">
-                <input type="text" placeholder="type your message here" id="message-box">
-                <input type="button" value="Send ✅">
+            <form action="#" id="message-form" name="sendText">
+                <input type="text" placeholder="type your message here" id="messageBox">
+                <input type="button" value="Send ✅" id="sendMessage" onclick="newText()">
             </form>
         </div>
         <div id="right" class="panel">
@@ -84,4 +84,5 @@
         </div>
     </div>
 </body>
+ <script src="./index.js"></script>
 </html>

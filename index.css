@@ -112,7 +112,7 @@
     text-decoration:underline;
 }
 
-#messages-overflow{
+#messagesContainer{
     max-height: 90vh;
     overflow-y: scroll;
 }
